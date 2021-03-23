@@ -4,5 +4,5 @@ project(empge CXX)
 
 add_executable(main main.cpp olcPixelGameEngine.h)
 
-include(cmake/em-pge.cmake)
-set_emscripten_options(main)
+include(cmake/PGE.cmake)
+pge_set_emscripten_options(main)
