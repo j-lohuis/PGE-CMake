@@ -8,6 +8,8 @@ Currently supported platforms are:
 - Windows
 - Emscripten
 
+If you have any issues don't hesitate to open an issue.
+
 # Building
 
 ## Linux
