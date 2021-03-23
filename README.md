@@ -44,7 +44,7 @@ mkdir build && cd build
 em++ ../main.cpp -sALLOW_MEMORY_GROWTH=1 -sMAX_WEBGL_VERSION=2 -sMIN_WEBGL_VERSION=2 -sUSE_LIBPNG=1 -o main.html
 ```
 
-You proceed to building with CMake after the initial build has finished.
+You remove all generated files and build with CMake after the initial build has finished.
 
 ### Emscripten (Linux)
 
@@ -68,4 +68,10 @@ make
 mkdir build && cd build
 emcmake cmake .. -G "NMake Makefiles"
 nmake
+```
+
+### Running Emscripten
+
+```
+emrun main.html
 ```
