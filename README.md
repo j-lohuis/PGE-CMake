@@ -1,7 +1,7 @@
 
 # Pixel Game Engine CMake Script
 
-This is a CMake script to help building with the [olcPixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine) including a example application.
+This is a CMake script to help build with the [olcPixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine) including an example application.
 
 Currently supported platforms are:
 - Linux
